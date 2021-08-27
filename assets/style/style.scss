@@ -46,6 +46,46 @@ body {
     }
   }
 }
+.toggle {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    button {
+      margin-top: 10px;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .header {
+    position: relative;
+  }
+  .main-menu {
+    display: none;
+    li {
+      text-align: left;
+      padding: 0;
+      list-style: none;
+      a {
+        padding: 0;
+        display: block;
+        border: none;
+      }
+    }
+  }
+  .map {
+    margin-top: 20px;
+  }
+  .toggle {
+    display: block;
+  }
+  .togglestyles {
+    display: block;
+    // transition: 0.5s;
+  }
+}
 .footer {
   min-height: 70vh;
   color: white;
@@ -138,16 +178,13 @@ body {
   }
 }
 .map {
-  background-color: red;
   height: 100vh;
-  // background-size: 100%;
   background-image: url("../images/map.png");
 }
 .intro {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
   min-height: 70vh;
   width: 100%;
   text-align: center;

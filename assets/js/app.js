@@ -1,10 +1,7 @@
 /** @format */
 
-// contact us start
-document.querySelector("#contact-form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  e.target.elements.name.value = "";
-  e.target.elements.email.value = "";
-  e.target.elements.message.value = "";
+var toggle = document.querySelector(".toggle");
+addEventListener("click", function () {
+  console.log("lalala");
+  document.querySelector(".main-menu").classList.toggle("togglestyles");
 });
-// contact us end
