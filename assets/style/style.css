@@ -70,6 +70,9 @@ body {
     text-align: center;
     margin-top: 20px;
   }
+  .map {
+    height: 50vh;
+  }
   .header {
     position: relative;
   }
