@@ -49,46 +49,7 @@ body {
 .toggle {
   display: none;
 }
-@media only screen and (max-width: 600px) {
-  .logo {
-    button {
-      margin-top: 10px;
-    }
-    h1 {
-      text-align: center;
-      margin-top: 20px;
-    }
-  }
-  .map {
-    height: 50vh;
-  }
-  .header {
-    position: relative;
-  }
-  .main-menu {
-    display: none;
-    li {
-      text-align: left;
-      padding: 0;
-      list-style: none;
-      a {
-        padding: 0;
-        display: block;
-        border: none;
-      }
-    }
-  }
-  .map {
-    margin-top: 20px;
-  }
-  .toggle {
-    display: block;
-  }
-  .togglestyles {
-    display: block;
-    // transition: 0.5s;
-  }
-}
+
 .footer {
   min-height: 70vh;
   color: white;
@@ -1691,5 +1652,47 @@ body {
     line-height: 40px;
     text-align: center;
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    button {
+      margin-top: 10px;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+
+  .header {
+    position: relative;
+  }
+  .main-menu {
+    display: none;
+    li {
+      text-align: left;
+      padding: 0;
+      list-style: none;
+      a {
+        padding: 0;
+        display: block;
+        border: none;
+      }
+    }
+  }
+
+  .toggle {
+    display: block;
+  }
+  .togglestyles {
+    display: block;
+    // transition: 0.5s;
+  }
+  .map {
+    margin-top: 50px;
+    height: 35vh;
+    // display: none;
+    // width: 10px;
   }
 }
